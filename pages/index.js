@@ -1,1 +1,8 @@
-export default function Home() { return <h1>Welcome to Pricify Live</h1> }
+export default function Home() {
+  return (
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>Welcome to Pricify Live 🎉</h1>
+      <p>Your smart price comparison site is now live!</p>
+    </div>
+  );
+}export default function Home() { return <h1>Welcome to Pricify Live</h1> }
