@@ -3,7 +3,7 @@ import React from "react";
 import { loadStripe } from "@stripe/stripe-js";
 
 // Stripe public key (TEST veya LIVE kullanabilirsin)
-const stripePromise = loadStripe("pk_test_..."); // Buraya kendi test veya live public key’ini gir
+const stripePromise = loadStripe("pk_live_51RZ9VBHQV8Xgme4Y6F6rtqtxPK66d87gqyufEYkBCsApD8yAOEJzPYlDQwuXgfOK6iAl3ylPuvEDV1c2h2srC6bH00n2S0GnET"); // Buraya kendi test veya live public key’ini gir
 
 const Pricing = () => {
   const handleCheckout = async (priceId) => {
