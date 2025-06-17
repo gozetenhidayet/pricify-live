@@ -1,12 +1,3 @@
-
-1 of 14
-Re: koy
-Inbox
-
-Hidayet Gozeten <hynngozeten@gmail.com>
-9:54 AM (1 minute ago)
-to me
-
 // pages/pricing.js
 import React from "react";
 import { loadStripe } from "@stripe/stripe-js";
