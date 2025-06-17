@@ -50,3 +50,4 @@ const Pricing = () => {
 };
 
 export default Pricing;
+// minor update to trigger deploy
