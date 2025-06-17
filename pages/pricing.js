@@ -1,12 +1,3 @@
-
-Gır
-
-Hidayet Gozeten <hynngozeten@gmail.com>
-3:28 PM (0 minutes ago)
-to me
-
-
-111
 import React from "react";
 import { loadStripe } from "@stripe/stripe-js";
 
