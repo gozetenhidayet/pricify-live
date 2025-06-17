@@ -1,9 +1,20 @@
+
+1 of 14
+Re: koy
+Inbox
+
+Hidayet Gozeten <hynngozeten@gmail.com>
+9:54 AM (1 minute ago)
+to me
+
 // pages/pricing.js
 import React from "react";
 import { loadStripe } from "@stripe/stripe-js";
 
-// Stripe public key (TEST veya LIVE kullanabilirsin)
-const stripePromise = loadStripe("pk_live_51RZ9VBHQV8Xgme4Y6F6rtqtxPK66d87gqyufEYkBCsApD8yAOEJzPYlDQwuXgfOK6iAl3ylPuvEDV1c2h2srC6bH00n2S0GnET"); // Buraya kendi test veya live public key’ini gir
+// LIVE Stripe Public Key (seninkini buraya yerleştirdim)
+const stripePromise = loadStripe(
+  "pk_live_51RZ9V8HQV8Xgme4Y6F6rtq6tP6K6d87gquyfeFYkBCsApD8yAOEzJ2PY1D0wuXgF0K6iAl3y1puvEDVl2Ch2srcB6H00n25eGNtE"
+);
 
 const Pricing = () => {
   const handleCheckout = async (priceId) => {
@@ -28,7 +39,7 @@ const Pricing = () => {
           <h2 className="text-xl font-semibold mb-2">Monthly Plan</h2>
           <p className="mb-4">$29 per month</p>
           <button
-            className="bg-blue-600 text-white px-4 py-2 rounded-xl"
+            className="bg-blue-600 text-white px-4 py-2 rounded-xl hover:bg-blue-700"
             onClick={() => handleCheckout("price_1RakXdHQV8Xgme4YaaUZaayL")}
           >
             Subscribe Monthly
@@ -40,7 +51,7 @@ const Pricing = () => {
           <h2 className="text-xl font-semibold mb-2">Yearly Plan</h2>
           <p className="mb-4">$300 per year (save $48!)</p>
           <button
-            className="bg-green-600 text-white px-4 py-2 rounded-xl"
+            className="bg-green-600 text-white px-4 py-2 rounded-xl hover:bg-green-700"
             onClick={() => handleCheckout("price_1RakjYHQV8Xgme4YjYOLe78r")}
           >
             Subscribe Yearly
