@@ -50,4 +50,4 @@ const Pricing = () => {
 };
 
 export default Pricing;
-// confirm deploy trigger
+// retry deploy clean build
