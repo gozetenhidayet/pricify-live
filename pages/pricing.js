@@ -26,7 +26,7 @@ const Pricing = () => {
           <p className="mb-4">$29 per month</p>
           <button
             className="bg-blue-600 text-white px-4 py-2 rounded-xl"
-            onClick={() => handleCheckout("price_abc123")} // Stripe dashboard'dan aldığın ID
+            onClick={() => handleCheckout("price_1RakXdHQV8Xgme4YaaUZaayL")} // Stripe dashboard'dan aldığın ID
           >
             Subscribe Monthly
           </button>
@@ -36,7 +36,7 @@ const Pricing = () => {
           <p className="mb-4">$300 per year (save $48!)</p>
           <button
             className="bg-green-600 text-white px-4 py-2 rounded-xl"
-            onClick={() => handleCheckout("price_xyz789")} // Stripe dashboard'dan aldığın ID
+            onClick={() => handleCheckout("price_1RakjYHQV8Xgme4YjYOLe78r")} // Stripe dashboard'dan aldığın ID
           >
             Subscribe Yearly
           </button>
