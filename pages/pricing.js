@@ -1,16 +1,3 @@
-
-1 of 14
-koy
-Inbox
-
-Sunrise NN
-9:21 AM (2 minutes ago)
-Monthly price_1RakXdHQV8Xgme4YaaUZaayL yearly price_1RakjYHQV8Xgme4YjYOLe78r
-
-Hidayet Gozeten <hynngozeten@gmail.com>
-9:23 AM (0 minutes ago)
-to me
-
 // pages/pricing.js
 import React from "react";
 import { loadStripe } from "@stripe/stripe-js";
