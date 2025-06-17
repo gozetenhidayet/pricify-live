@@ -5,4 +5,4 @@ export default function Home() {
       <p>Your smart price comparison site is now live!</p>
     </div>
   );
-}export default function Home() { return <h1>Welcome to Pricify Live</h1> }
+}
