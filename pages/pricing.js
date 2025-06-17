@@ -1,13 +1,4 @@
 
-1 of 34
-Gir
-Inbox
-
-Hidayet Gozeten <hynngozeten@gmail.com>
-3:17 PM (0 minutes ago)
-to me
-
-
 import React from "react";
 import { loadStripe } from "@stripe/stripe-js";
 
