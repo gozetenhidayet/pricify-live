@@ -1,11 +1,7 @@
-// pages/pricing.js
 import React from "react";
 import { loadStripe } from "@stripe/stripe-js";
 
-// LIVE Stripe Public Key (seninkini buraya yerleştirdim)
-const stripePromise = loadStripe(
-  "pk_live_51RZ9V8HQV8Xgme4Y6F6rtq6tP6K6d87gquyfeFYkBCsApD8yAOEzJ2PY1D0wuXgF0K6iAl3y1puvEDVl2Ch2srcB6H00n25eGNtE"
-);
+const stripePromise = loadStripe("pk_live_51RZ9V8HQV8Xgme4Y6F6rtq6tP6K6d87gquyfeFYkBCsApD8yAOEzJ2PY1D0wuXgF0K6iAl3y1puvEDVl2Ch2srcB6H00n25eGNtE");
 
 const Pricing = () => {
   const handleCheckout = async (priceId) => {
